@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+html {
+  scroll-behavior: smooth;
+}
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+.css-icon-primary {
+  filter: brightness(0) saturate(100%) invert(25%) sepia(82%) saturate(1879%)
+    hue-rotate(191deg) brightness(104%) contrast(102%);
+}
+
+.disabled-icon {
+  filter: invert(48%) sepia(8%) saturate(636%) hue-rotate(161deg)
+    brightness(87%) contrast(88%);
+}
+
+.react-international-phone-country-selector-button {
+  height: 40px !important;
+  width: 60px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
